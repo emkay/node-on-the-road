@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'CC';
+    src: url('cc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CC';
+    font-size: 16px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6em;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 5em;
+    margin-bottom: 0;
+    margin-left: 10px;
+    position: relative;
+    z-index: 4;
+}
+
+li {
+    font-size: 4em;
+    position: relative;
+    z-index: 420;
+}
+
+#app {
+    background: url(/static/images/background.png) repeat-x;
+    height: 1024px;
+    position: relative;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        margin-right: -100px;
+    }
+
+    to {
+        margin-right: 110%;
+    }
+}
+
+.elephant {
+    background: url(/static/images/elephant.gif);
+    height: 100px;
+    right: 100px;
+    position: absolute;
+    top: 400px;
+    width: 100px;
+}
+
+.shark {
+    -webkit-animation-duration: 30s;
+    -webkit-animation-name: slidein;
+    background: url(/static/images/shark.png);
+    bottom: 64px;
+    height: 75px;
+    right: -100px;
+    position: absolute;
+    width: 75px;
+}
+
+.pine-high {
+    background: url(/static/images/pineGreen_high.png);
+    height: 99px;
+    right: 20px;
+    position: absolute;
+    top: 340px;
+    width: 30px;
+}
+
+.pine-mid {
+    background: url(/static/images/pineGreen_mid.png);
+    height: 99px;
+    left: 50%;
+    position: absolute;
+    top: 320px;
+    width: 30px;
+}
+
+.dav {
+    background: url(/static/images/dav-8bit.png) no-repeat;
+    background-size: contain;
+    bottom: 200px;
+    height: 75px;
+    right: 425px;
+    position: absolute;
+    width: 75px;
+    z-index: 3;
+}
+
+.ynpm {
+    background: url(/static/images/ynpm-small.png);
+    bottom: 200px;
+    height: 89px;
+    position: absolute;
+    right: 100px;
+    width: 322px;
+}
+
+.heart{
+    background: url(/static/images/heart.png);
+    top: 125px;
+    height: 50px;
+    left: 35px;
+    position: absolute;
+    width: 200px;
+}
+
+.me {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
